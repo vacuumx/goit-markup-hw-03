@@ -46,6 +46,11 @@ img {
 .flex {
   display: flex;
 }
+.flex-header {
+  display: flex;
+  justify-content: space-between;
+}
+
 .header-web {
   color: var(--iris);
 }
@@ -82,8 +87,6 @@ img {
 .contact-list {
   list-style: none;
   display: flex;
-  align-self: flex-end;
-  margin-left: 332px;
   gap: 40px;
 }
 
