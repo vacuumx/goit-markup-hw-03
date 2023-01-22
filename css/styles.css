@@ -11,19 +11,6 @@
   --blues: rgba(46, 47, 66, 0.08);
   --bluez: rgba(46, 47, 66, 0.16);
 }
-:root {
-  --iris: #4d5ae5;
-  --navy-blue: #2e2f42;
-  --slate: #434455;
-  --cloud: #f4f4fd;
-  --cornflower: #e7e9fc;
-  --ocean: #404bbf;
-  --white: #ffffff;
-  --light: rgba(231, 233, 252, 0.1);
-  --blacky: rgba(0, 0, 0, 0.15);
-  --blues: rgba(46, 47, 66, 0.08);
-  --bluez: rgba(46, 47, 66, 0.16);
-}
 
 body {
   font-family: "roboto", sans-serif;
