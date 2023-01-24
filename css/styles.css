@@ -35,6 +35,8 @@ img {
 }
 .container {
   width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -113,10 +115,10 @@ img {
   background-color: var(--navy-blue);
   color: var(--white);
   font-size: 56px;
+  width: 494px;
   line-height: 1.07;
-  text-align: center;
-  padding-right: 317px;
-  padding-left: 317px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .order-btn {
   font-family: "roboto", sans-serif;
@@ -139,14 +141,18 @@ img {
 }
 
 .section-goal {
-  margin-top: 120px;
-  margin-bottom: 120px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .goal-list {
   list-style: none;
   display: flex;
   gap: 24px;
 }
+.goal-item {
+  flex-basis: calc(100% / 4);
+}
+
 .headline {
   font-weight: 500;
   font-size: 20px;
@@ -160,7 +166,7 @@ img {
 }
 
 .section-doing {
-  margin-bottom: 120px;
+  padding-bottom: 120px;
 }
 .subtitle {
   font-size: 36px;
@@ -172,6 +178,9 @@ img {
   list-style: none;
   display: flex;
   gap: 24px;
+}
+.work-item {
+  flex-basis: calc(100% / 3);
 }
 
 .team-section {
@@ -190,6 +199,7 @@ img {
   display: flex;
   gap: 24px;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .subject {
   background-color: var(--white);
@@ -197,8 +207,9 @@ img {
   box-shadow: 0px 1px 6px var(--blues), 0px 1px 1px var(--bluez),
     0px 2px 1px var(--blues);
   border-radius: 0px 0px 4px 4px;
+  flex-basis: calc(100% / 4 - 24px);
 }
-.subject-item{
+.subject-item {
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -244,7 +255,7 @@ img {
 
 .btn-list {
   list-style: none;
-  margin-top: 96px;
+  padding-top: 96px;
   margin-bottom: 72px;
   gap: 24px;
   justify-content: center;
@@ -274,7 +285,10 @@ img {
   flex-wrap: wrap;
   row-gap: 48px;
   column-gap: 24px;
-  margin-bottom: 120px;
+  padding-bottom: 120px;
+}
+.menu-item {
+  flex-basis: calc(100% / 3 - 24px);
 }
 .menu-link {
   text-decoration: none;
@@ -283,7 +297,7 @@ img {
 .menu-text {
   padding: 32px 16px;
   border: 1px solid var(--cornflower);
-  border-top: transparent;
+  border-top: none;
 }
 .menu-name {
   font-weight: 500;
